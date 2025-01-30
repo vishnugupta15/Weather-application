@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="../images/clear.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter City name" spellcheck="false">
+            <button><img src="../images/search.png"></button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+        <div class="weather">
+            <div class="container">
+                <div class="weatherDetails1">
+                    <h2 class="city">Ujjain</h2>
+                    <img src="../images/rain.png" class="weather-icon">
+                    <h1 class="temp">22°c</h1>
+                    <div class="details">
+                        <div class="col">
+                            <img src="../images/humidity.png">
+                            <div>
+                                <p class="humidity">50%</p>
+                                <p>Humidity</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <img src="../images/wind.png">
+                            <div>
+                                <p class="wind">15km/h</p>
+                                <p>Wind speed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="divider"></div> -->
+
+                <div class="forecast">
+                    <p class="cast-header">Upcoming Forecast</p>
+                    <div class="templist">
+                        <div class="next">
+                            <div>
+                                <p id="time"></p>
+                                <p id="temprature"></p>
+                            </div>
+                            <p id="description"></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script src="../js/index.js"></script>
+</body>
+
+</html>

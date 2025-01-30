@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+
+}
+.card{
+    width: 98%;
+    /* max-width: 470px; */
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    margin: 10px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    height: 98vh;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: centre;
+    justify-content: center;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px; 
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    max-width: 500px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius:50% ;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.search button img{
+    width: 16px;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity , .wind , .aqi{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.weather{
+    /* display: flex; */
+    display: none;
+}
+
+.container {
+    display: flex;
+    height: 80vh;
+}
+
+.weatherDetails1{
+    margin-top: 100px;
+    width: 60%;
+    padding: 0 7%;
+    border-right: 3px solid #005affb0;
+}
+
+.error{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: red;
+    font-size: 30px;
+    display: none;
+}
+
+.cast-header {
+    color: aliceblue;
+    background: rgba(254, 189, 132, 0.5);
+    width: max-content;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.description{
+    color: rgb(196, 255, 77);
+    text-transform: capitalize;
+}
+
+.divider, #divider{
+    background: rgba(254, 189, 132, 0.5);
+    height: 190px;
+    border-radius: 5px;
+}
+
+.forecast {
+    width: 40%;
+    margin: 50px 100px;
+    color: aliceblue;
+}
+
+.next {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.next p {
+    margin: 3px 0;
+    text-align: left;
+}
+
+.next #time, #date {
+    color: rgb(254, 189, 132);
+}
